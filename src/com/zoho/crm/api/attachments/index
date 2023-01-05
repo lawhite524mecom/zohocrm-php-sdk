@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>ZOHO CRM SDK</title>
+    
+    <meta name="description" content="JS SDK lib for ZOHO CRM" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"JS SDK","sort":false,"meta":{"title":"ZOHO CRM SDK","description":"JS SDK lib for ZOHO CRM"},"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">JS SDK</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="ZOHO.CRM.API">
+            <span class="title">
+                <a href="ZOHO.CRM.API.html">ZOHO.CRM.API</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.API.addNotes"><a href="ZOHO.CRM.API.html#.addNotes">addNotes</a></li>
+            
+                <li data-name="ZOHO.CRM.API.approveRecord"><a href="ZOHO.CRM.API.html#.approveRecord">approveRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.attachFile"><a href="ZOHO.CRM.API.html#.attachFile">attachFile</a></li>
+            
+                <li data-name="ZOHO.CRM.API.deleteRecord"><a href="ZOHO.CRM.API.html#.deleteRecord">deleteRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.delinkRelatedRecord"><a href="ZOHO.CRM.API.html#.delinkRelatedRecord">delinkRelatedRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getAllActions"><a href="ZOHO.CRM.API.html#.getAllActions">getAllActions</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getAllProfiles"><a href="ZOHO.CRM.API.html#.getAllProfiles">getAllProfiles</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getAllRecords"><a href="ZOHO.CRM.API.html#.getAllRecords">getAllRecords</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getAllUsers"><a href="ZOHO.CRM.API.html#.getAllUsers">getAllUsers</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getApprovalById"><a href="ZOHO.CRM.API.html#.getApprovalById">getApprovalById</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getApprovalRecords"><a href="ZOHO.CRM.API.html#.getApprovalRecords">getApprovalRecords</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getApprovalsHistory"><a href="ZOHO.CRM.API.html#.getApprovalsHistory">getApprovalsHistory</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getBluePrint"><a href="ZOHO.CRM.API.html#.getBluePrint">getBluePrint</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getFile"><a href="ZOHO.CRM.API.html#.getFile">getFile</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getOrgVariable"><a href="ZOHO.CRM.API.html#.getOrgVariable">getOrgVariable</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getProfile"><a href="ZOHO.CRM.API.html#.getProfile">getProfile</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getRecord"><a href="ZOHO.CRM.API.html#.getRecord">getRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getRelatedRecords"><a href="ZOHO.CRM.API.html#.getRelatedRecords">getRelatedRecords</a></li>
+            
+                <li data-name="ZOHO.CRM.API.getUser"><a href="ZOHO.CRM.API.html#.getUser">getUser</a></li>
+            
+                <li data-name="ZOHO.CRM.API.insertRecord"><a href="ZOHO.CRM.API.html#.insertRecord">insertRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.searchRecord"><a href="ZOHO.CRM.API.html#.searchRecord">searchRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.updateBluePrint"><a href="ZOHO.CRM.API.html#.updateBluePrint">updateBluePrint</a></li>
+            
+                <li data-name="ZOHO.CRM.API.updateProfile"><a href="ZOHO.CRM.API.html#.updateProfile">updateProfile</a></li>
+            
+                <li data-name="ZOHO.CRM.API.updateRecord"><a href="ZOHO.CRM.API.html#.updateRecord">updateRecord</a></li>
+            
+                <li data-name="ZOHO.CRM.API.updateRelatedRecords"><a href="ZOHO.CRM.API.html#.updateRelatedRecords">updateRelatedRecords</a></li>
+            
+                <li data-name="ZOHO.CRM.API.uploadFile"><a href="ZOHO.CRM.API.html#.uploadFile">uploadFile</a></li>
+            
+                <li data-name="ZOHO.CRM.API.upsertRecord"><a href="ZOHO.CRM.API.html#.upsertRecord">upsertRecord</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.BLUEPRINT">
+            <span class="title">
+                <a href="ZOHO.CRM.BLUEPRINT.html">ZOHO.CRM.BLUEPRINT</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.BLUEPRINT.proceed"><a href="ZOHO.CRM.BLUEPRINT.html#.proceed">proceed</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.CONFIG">
+            <span class="title">
+                <a href="ZOHO.CRM.CONFIG.html">ZOHO.CRM.CONFIG</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.CONFIG.getCurrentUser"><a href="ZOHO.CRM.CONFIG.html#.getCurrentUser">getCurrentUser</a></li>
+            
+                <li data-name="ZOHO.CRM.CONFIG.getOrgInfo"><a href="ZOHO.CRM.CONFIG.html#.getOrgInfo">getOrgInfo</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.CONNECTION">
+            <span class="title">
+                <a href="ZOHO.CRM.CONNECTION.html">ZOHO.CRM.CONNECTION</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.CONNECTION.invoke"><a href="ZOHO.CRM.CONNECTION.html#.invoke">invoke</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.CONNECTOR">
+            <span class="title">
+                <a href="ZOHO.CRM.CONNECTOR.html">ZOHO.CRM.CONNECTOR</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.CONNECTOR.authorize"><a href="ZOHO.CRM.CONNECTOR.html#.authorize">authorize</a></li>
+            
+                <li data-name="ZOHO.CRM.CONNECTOR.invokeAPI"><a href="ZOHO.CRM.CONNECTOR.html#.invokeAPI">invokeAPI</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.FUNCTIONS">
+            <span class="title">
+                <a href="ZOHO.CRM.FUNCTIONS.html">ZOHO.CRM.FUNCTIONS</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.FUNCTIONS.execute"><a href="ZOHO.CRM.FUNCTIONS.html#.execute">execute</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.HTTP">
+            <span class="title">
+                <a href="ZOHO.CRM.HTTP.html">ZOHO.CRM.HTTP</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.HTTP.delete"><a href="ZOHO.CRM.HTTP.html#.delete">delete</a></li>
+            
+                <li data-name="ZOHO.CRM.HTTP.get"><a href="ZOHO.CRM.HTTP.html#.get">get</a></li>
+            
+                <li data-name="ZOHO.CRM.HTTP.patch"><a href="ZOHO.CRM.HTTP.html#.patch">patch</a></li>
+            
+                <li data-name="ZOHO.CRM.HTTP.post"><a href="ZOHO.CRM.HTTP.html#.post">post</a></li>
+            
+                <li data-name="ZOHO.CRM.HTTP.put"><a href="ZOHO.CRM.HTTP.html#.put">put</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.META">
+            <span class="title">
+                <a href="ZOHO.CRM.META.html">ZOHO.CRM.META</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.META.getAssignmentRules"><a href="ZOHO.CRM.META.html#.getAssignmentRules">getAssignmentRules</a></li>
+            
+                <li data-name="ZOHO.CRM.META.getCustomViews"><a href="ZOHO.CRM.META.html#.getCustomViews">getCustomViews</a></li>
+            
+                <li data-name="ZOHO.CRM.META.getFields"><a href="ZOHO.CRM.META.html#.getFields">getFields</a></li>
+            
+                <li data-name="ZOHO.CRM.META.getLayouts"><a href="ZOHO.CRM.META.html#.getLayouts">getLayouts</a></li>
+            
+                <li data-name="ZOHO.CRM.META.getModules"><a href="ZOHO.CRM.META.html#.getModules">getModules</a></li>
+            
+                <li data-name="ZOHO.CRM.META.getRelatedList"><a href="ZOHO.CRM.META.html#.getRelatedList">getRelatedList</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.UI">
+            <span class="title">
+                <a href="ZOHO.CRM.UI.html">ZOHO.CRM.UI</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.UI.Resize"><a href="ZOHO.CRM.UI.html#.Resize">Resize</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.UI.Dialer">
+            <span class="title">
+                <a href="ZOHO.CRM.UI.Dialer.html">ZOHO.CRM.UI.Dialer</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.UI.Dialer.maximize"><a href="ZOHO.CRM.UI.Dialer.html#.maximize">maximize</a></li>
+            
+                <li data-name="ZOHO.CRM.UI.Dialer.minimize"><a href="ZOHO.CRM.UI.Dialer.html#.minimize">minimize</a></li>
+            
+                <li data-name="ZOHO.CRM.UI.Dialer.notify"><a href="ZOHO.CRM.UI.Dialer.html#.notify">notify</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.UI.Popup">
+            <span class="title">
+                <a href="ZOHO.CRM.UI.Popup.html">ZOHO.CRM.UI.Popup</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.UI.Popup.close"><a href="ZOHO.CRM.UI.Popup.html#.close">close</a></li>
+            
+                <li data-name="ZOHO.CRM.UI.Popup.closeReload"><a href="ZOHO.CRM.UI.Popup.html#.closeReload">closeReload</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.UI.Record">
+            <span class="title">
+                <a href="ZOHO.CRM.UI.Record.html">ZOHO.CRM.UI.Record</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.UI.Record.create"><a href="ZOHO.CRM.UI.Record.html#.create">create</a></li>
+            
+                <li data-name="ZOHO.CRM.UI.Record.edit"><a href="ZOHO.CRM.UI.Record.html#.edit">edit</a></li>
+            
+                <li data-name="ZOHO.CRM.UI.Record.open"><a href="ZOHO.CRM.UI.Record.html#.open">open</a></li>
+            
+                <li data-name="ZOHO.CRM.UI.Record.populate"><a href="ZOHO.CRM.UI.Record.html#.populate">populate</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.UI.Widget">
+            <span class="title">
+                <a href="ZOHO.CRM.UI.Widget.html">ZOHO.CRM.UI.Widget</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.UI.Widget.open"><a href="ZOHO.CRM.UI.Widget.html#.open">open</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ZOHO.CRM.WIZARD">
+            <span class="title">
+                <a href="ZOHO.CRM.WIZARD.html">ZOHO.CRM.WIZARD</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ZOHO.CRM.WIZARD.post"><a href="ZOHO.CRM.WIZARD.html#.post">post</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="index.html">Index</h1>
+        
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article class="readme">
+            <h2>CDN URL</h2>
+<pre><code>https://live.zwidgets.com/js-sdk/1.1/ZohoEmbededAppSDK.min.js
+</code></pre>
+
+<h2>To register Listeners with EmbededApp</h2>
+<pre><code>ZOHO.embeddedApp.on(&quot;DialerActive&quot;,function(){
+		console.log(&quot;Dialer Activated&quot;);
+})
+
+ZOHO.embeddedApp.on(&quot;Dial&quot;,function(data){
+		console.log(&quot;Number Dialed&quot;);
+})
+
+ZOHO.embeddedApp.on(&quot;PageLoad&quot;,function(data){
+		console.log(data);
+})
+// Prints
+-----------------------------
+RelatedList
+-----------------------------
+{
+  &quot;Entity&quot;: &quot;Leads&quot;,
+  &quot;EntityId&quot;: &quot;3000000032096&quot;
+}
+-----------------------------
+Buttons
+-----------------------------
+{
+  &quot;EntityId&quot;: [
+    &quot;3000000040011&quot;,
+    &quot;3000000032101&quot;,
+    &quot;3000000032096&quot;,
+    &quot;3000000032091&quot;,
+    &quot;3000000032009&quot;
+  ],
+  &quot;Entity&quot;: &quot;Leads&quot;,
+  &quot;ButtonPosition&quot;: &quot;ListView&quot;
+}
+</code></pre>
+<h2>Description</h2>
+<pre><code>DialerActive 	- Triggered everytime softphone window is toggled
+Dial 			- Triggered when Call icon inside ZohoCRM is clicked
+PageLoad 		- Triggered When ever an entity Page (Detail page) is loaded
+</code></pre>
+<h2>Example</h2>
+<pre><code>/*
+ * Subscribe to the EmbeddedApp onPageLoad event before initializing 
+ */
+ 
+ZOHO.embeddedApp.on(&quot;PageLoad&quot;,function(data)
+{
+	console.log(data);
+	//Custom Bussiness logic goes here
+})
+
+/*
+ * initializing the widget.
+ */
+ZOHO.embeddedApp.init();
+</code></pre></article>
+    </section>
+
+
+
+
+
+
+        
+	<!-- Footer removed temporarily
+        <footer>
+            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Mar 18 2021 22:25:50 GMT+0530 (India Standard Time)
+        </footer>
+	-->
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
